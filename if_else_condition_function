@@ -1,6 +1,6 @@
 #!/bin/bash
 is_loyal() {
-  read -p "Jetha ne mud ke kise dekha: 11 bandi"
+  read -p "Jetha ne mud ke kise dekha: " bandi
   read -p "Jetha ka pyaar %" pyaar
 
   if [[ $bandi == "daya bhabhi" ]]; then
